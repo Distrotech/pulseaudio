@@ -1242,8 +1242,6 @@ AC_SUBST(PA_SOEXT, [.so])
 AC_SUBST(pulseconfdir, ["${sysconfdir}/pulse"])
 AX_DEFINE_DIR(PA_DEFAULT_CONFIG_DIR, pulseconfdir, [Location of configuration files])
 
-AC_DEFINE_UNQUOTED(PA_BUILDDIR, "${ac_pwd}/src", [Location of uninstalled binaries])
-
 #### Mac OSX specific stuff #####
 
 AC_ARG_ENABLE(mac-universal,
